@@ -1,0 +1,19 @@
+.myPagination .pagination-more{border-top:0;border-bottom:0;font-size: 9px;line-height: 22px;}
+.myPagination .page-info{float: right;}
+.myPagination .page-no{float: left;margin-right: 10px;}
+.myPagination .page-to{float: left;color: #666;}
+.myPagination .page-to input[type=text]{width:22px;height: 22px;text-align: center;margin: 0 5px;}
+
+/*样式重置*/
+.myPagination{float: right;font-size: 14px;line-height: 22px;padding: 20px 20px 20px 0;}
+.page-info-fl{float: left;margin-right: 10px;}
+.page-info-fl .page-no{color: #999;}
+.page-select{line-height: 22px;margin: 0 5px;height: 22px;}
+.page-info-fl .page-to{color: #666;}
+#page .pagination{margin: 0 10px 0 0;float: left;}
+#page .pagination>li>a,#page .pagination>li>span{color: #666;font-size: 14px;border: 1px solid #f1f1f1;}
+#page .pagination>li:last-child>a,#page .pagination>li:last-child>span{border-radius: 0;}
+#page .pagination>li:first-child>a,#page .pagination>li:first-child>span{border-radius: 0;}
+#page .pagination>li>a,#page .pagination>li>span{display: inline-block;padding: 0 10px;height: 22px;line-height: 22px;color: #666;cursor: pointer;}
+#page .pagination>.active>a, #page .pagination>.active>span, #page .pagination>.active>a:hover, #page .pagination>.active>span:hover,#page .pagination>.active>a:focus,#page .pagination>.active>span:focus{color: #f8891b;background: none;border: none;}
+.myPagination .page-to input[type=button]{width:43px;height: 22px;line-height: 20px;background-color: #dfdfdf;border: 1px solid #c3c2c2;padding: 0;margin: 0;text-align: center;color: #333;margin-left: 10px;}

@@ -1,0 +1,20 @@
+{
+"code": "0",
+"msg":"ok",
+"version":"1.0.0",
+	"data":{
+		"total":2,
+			"list":[
+			{
+				"dictclass_id": "1",
+				"vcode": "1",
+				"vname": "信息类"
+			},
+			{
+				"dictclass_id": "2",
+				"vcode": "2",
+				"vname": "性别"
+			}
+			]
+	}
+}

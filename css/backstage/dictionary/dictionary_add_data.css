@@ -1,0 +1,11 @@
+.add_title_01{font-size: 16px;color: #333;height: 29px;line-height: 29px;padding-left: 12px;border-bottom: 1px solid #e8e8e8;background-color: #f7f7f7;margin: 0;}
+.table_add_data{width: 100%;margin-top: 10px;}
+.table_add_data tr td{line-height: 40px;padding: 13px 7px;font-size: 14px;color: #333;}
+.table_add_data tr td:nth-of-type(2n){text-align: left;}
+.table_add_data tr td:nth-of-type(2n-1){text-align: right;width: 30%;}
+.add_txt01{position: relative;padding-left: 17px;}
+.add_red_tip01{color: #e95755;margin-right: 10px;font-size: 16px;position: absolute;top: -7px;left: 0;}
+.add_select{width: 100px;height: 34px;border: 1px solid #c1c0c0;line-height: 34px;}
+.add_input{width: 268px;height: 34px;border: 1px solid #c1c0c0;line-height: 34px;padding-left: 8px;}
+.add_textarea{width: 318px;height: 98px;border: 1px solid #c1c0c0;}
+.add_submit{width: 270px;height: 36px;line-height: 30px;background-color: #f4a134;color: #fff;border: none;font-size: 20px;/*border-radius: 3px;*/}

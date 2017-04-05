@@ -1,0 +1,24 @@
+@-webkit-keyframes am-rotate2 {
+    from {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: -444px 0
+    }
+}
+.loading{
+	border-radius: 6px;background: rgba(0,0,0,.65);width: 130px;height: 110px;position: absolute;left: 50%;margin-left: -65px;top: 50%;margin-top: -55px;z-index: 999;
+}
+.loading-icon{
+	width: 37px;height: 37px;background-image: url(/images/loading_sprite_white.png);-webkit-background-size: auto 37px;-webkit-animation: am-rotate2 1s steps(12) infinite;margin: 15px auto
+}
+.loading-des{
+	color:#FFFFFF;text-align: center;
+}
+.loading-drop{
+	position: fixed;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}

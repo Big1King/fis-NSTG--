@@ -1,0 +1,43 @@
+<div class="crumb_box">
+	<a href="#">首页</a><span class="glyphicon glyphicon-menu-right"></span><a href="#">商品管理</a><span class="glyphicon glyphicon-menu-right"></span><span>增加</span>
+</div>
+
+<h3 class="add_title_01">数据类型</h3>
+<form id="form_id" successFun="" action="/dict/add" class="validation" successTarget="/page/backstage/dictionary/dictionary.html" method="post">
+	<table class="table_add_data">
+		<tbody>
+			<tr>
+				<td><span class="add_txt01"><strong class="add_red_tip01">*</strong>字典类型：</span></td>
+				<td><input type="text" class="add_input validate[required]" name="dictclass_id" /></td>
+			</tr>
+			<tr>
+				<td>类型名称：</td>
+				<td><select class="add_select" id="add_select"></select></td>
+			</tr>
+			<tr>
+				<td><span class="add_txt01"><strong class="add_red_tip01">*</strong>数据名称：</span></td>
+				<td><input type="text" class="add_input validate[required]" name="vname" /></td>
+			</tr>
+			<tr>
+				<td>数据值：</td>
+				<td><input type="text" class="add_input" /></td>
+			</tr>
+			<tr>
+				<td><span class="add_txt01"><strong class="add_red_tip01">*</strong>父值：</span></td>
+				<td><input type="text" class="add_input validate[required]" name="vcode" /></td>
+			</tr>
+			<tr>
+				<td>备注：</td>
+				<td><textarea class="add_textarea"></textarea></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+				<td><input type="button" class="add_submit submit" value="提交" /></td>
+			</tr>
+		</tbody>
+	</table>
+</form>
+
+<link rel="stylesheet" href="css/backstage/dictionary/dictionary.css" />
+<link rel="stylesheet" href="css/backstage/dictionary/dictionary_add_data.css" />
+<script type="text/javascript" src="js/backstage/dictionary/dictionary_add_data.js"></script>

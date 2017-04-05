@@ -1,0 +1,13 @@
+{
+	"code": "0",
+	"msg":"ok",
+	"version":"1.0.0",
+	"data":{
+		"dict_id": "2",
+		"dictclass_id": "2",
+		"dictclass_vname": "性别",
+		"vcode": "1",
+		"vname": "男",
+		"createtime": "2017-03-02 12:01:13"
+	}
+}

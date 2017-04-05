@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="/third_party/jquery/jquery-3.1.1.min.js"></script>
+		<script src="third_party/require/require.js"></script>
+		<script src="js/require-main.js"></script>
+	</head>
+	<body>
+		<form id="form_id" successFun="" action="/test" class="validation" successTarget="/test.html">
+			<input class="datetimepicker validate[required]" type="text"  data-date-format="yyyy-mm-dd">
+			<input class="submit" type="button" value="提交" />
+		</form>
+		<a data-trigger="modal" href="test.html" data-title="Modal title" class="btn">Launch demo modal</a>
+		<br />   
+		<a data-trigger="tooltip" data-content="tooltip悬浮提示">hover me</a>
+		<br />  
+		<a data-trigger="popover" title="标题" data-content="popover悬浮提示">hover me</a>
+		<div id="testPagination"></div>
+		<div>
+			<nav aria-label="Page navigation">
+			  <ul class="pagination">
+			    <li>
+			      <a href="#" aria-label="Previous">
+			        <span aria-hidden="true">&laquo;</span>
+			      </a>
+			    </li>
+			    <li><a href="#">1</a></li>
+			    <li><a href="#">2</a></li>
+			    <li><a href="#">3</a></li>
+			    <li><a href="#">4</a></li>
+			    <li><a href="#">5</a></li>
+			    <li><a href="#">6</a></li>
+			    <li><a href="#">7</a></li>
+			    <li><a href="#">8</a></li>
+			    <li><a href="#">9</a></li>
+			    <li><a href="#">10</a></li>
+			    <li>
+			      <a href="#" aria-label="Next">
+			        <span aria-hidden="true">&raquo;</span>
+			      </a>
+			    </li>
+			  </ul>
+			</nav>
+		</div>
+		<a href="test.html" data-loadmode>aaaaaa</a>
+		<div id="content"></div>
+	</body>
+</html>

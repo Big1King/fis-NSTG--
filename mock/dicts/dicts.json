@@ -1,0 +1,26 @@
+{
+	"code": "0",
+	"msg":"ok",
+	"version":"1.0.0",
+	"data":{
+		"total":1,
+		"list":[
+				{
+					"dict_id": "2",
+					"dictclass_id": "2",
+				   	"dictclass_vname": "性别",
+					"vcode": "1",
+					"vname": "男",
+					"createtime": "2017-03-02 12:01:13"
+				},
+				{
+					"dict_id": "1",
+					"dictclass_id": "1",
+				   	"dictclass_vname": "信息类",
+					"vcode": "1",
+					"vname": "女",
+					"createtime": "2017-03-02 12:11:13"
+				}
+		]
+	}
+}

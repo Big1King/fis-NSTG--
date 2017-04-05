@@ -1,0 +1,32 @@
+.table_btn{display: inline-block;background-color: #f4a134;color: #fff;font-size: 16px;line-height: 28px;padding: 0 10px;/*border-radius: 3px;*/cursor: pointer;}
+/*面包屑导航 b*/
+.crumb_box{height: 43px;line-height: 43px;font-size: 12px;color: #666;}
+.crumb_box a{color: #666;}
+.crumb_box span.glyphicon{margin: 0 5px;}
+/*面包屑导航 e*/
+/*查询条件 b*/
+.condition_box{background-color: #f7f7f7;height: 60px;padding: 15px 20px;line-height: 30px;position: relative;}
+.condition_box_fl{color: #333;font-size: 14px;}
+.condition_label01{margin-bottom: 0;font-weight: normal;margin-right: 20px;}
+.condition_label01 span{margin-right: 10px;}
+.condition_sel01,.condition_ipt01{width: 146px;height: 26px;border: 1px solid #ebebeb;}
+.condition_btn01{}
+.operation_box_fr{position: absolute;right: 20px;top: 15px;}
+.operation_list01 li{float: left;margin-right: 10px;background-color: #f4a134;color: #fff;font-size: 16px;line-height: 28px;padding: 0 10px;/*border-radius: 3px;*/cursor: pointer;}
+.operation_list01 li span.glyphicon{padding-right: 10px;font-size: 14px;}
+.operation_list01 li a{color:#fff;}
+.operation_list01 li a:hover{text-decoration: none;}
+/*查询条件 e*/
+/*查询表格 b*/
+.table_list_box{width: 100%;overflow: hidden;margin-top: 10px;}
+.table_box{width: 100%;}
+.table_box tr th{line-height: 36px;font-size: 14px;color: #fff;background-color: #a7bf36;border-right: 2px solid #e8e8e8;text-align: center;font-weight: normal;}
+.table_box tr th:last-of-type{border-right: 0;}
+.table_box tr td{line-height: 42px;font-size: 14px;color: #333;border-right: 2px solid #e8e8e8;text-align: center;border-bottom: 2px solid #e8e8e8;}
+.table_box tr td a.aloaded:hover{text-decoration: none;}
+.table_box tr td:first-child{border-left: 2px solid #e8e8e8;}
+.table_box tfoot td:nth-of-type(1),.table_box tfoot td:nth-of-type(2){border-right: none;}
+.square_checkbox{margin: 0;}
+.checkbox_btn{font-weight: normal;}
+.table_change01,.table_del01{background-color: #f99e43;color: #fff;padding: 5px 10px;margin-right: 10px;cursor: pointer;}
+.table_del01{background-color: #e85451;margin: 0;}

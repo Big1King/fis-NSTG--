@@ -1,0 +1,22 @@
+{
+"code": "0",
+"msg":"ok",
+"version":"1.0.0",
+"data":{
+	"total":1018,
+"list":[
+{
+	"user_id": "1",
+	"name": "李三",
+	"sex": "男",
+	"age": 29
+},
+{
+	"user_id": "5",
+	"name": "李萍",
+	"sex": "女",
+	"age": 17
+}
+]
+}
+}
